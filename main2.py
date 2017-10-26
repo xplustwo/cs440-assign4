@@ -28,8 +28,8 @@ while (int(ans) == 1):
     global w0
     global w1
     global w2
-    x = raw_input("Enter i1 value: ")
-    y = raw_input("Enter i2 value: ")
+    x = input("Enter i1 value: ")
+    y = input("Enter i2 value: ")
     desired = raw_input("1 or -1: ")
     x = float(x)
     print(x)
@@ -89,4 +89,4 @@ while (int(ans) == 1):
     print("Incorrect point?")
     print("1: yes")
     print("2: no")
-    ans = raw_input("Enter: ")
+    ans = input("Enter: ")

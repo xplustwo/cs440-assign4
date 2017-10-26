@@ -38,14 +38,14 @@ plt.show()
 print("Are there misclassified point(s)?")
 print("1: yes")
 print("2: no")
-ans = raw_input("Enter: ")
+ans = input("Enter: ")
 while (int(ans) == 1):
     global w0
     global w1
     global w2
-    x = raw_input("Enter i1 value: ")
-    y = raw_input("Enter i2 value: ")
-    desired = raw_input("1 or -1: ")
+    x = input("Enter i1 value: ")
+    y = input("Enter i2 value: ")
+    desired = input("1 or -1: ")
     x = float(x)
     print(x)
     y = float(y)
@@ -85,9 +85,9 @@ while (int(ans) == 1):
 
     print(w2)
 
-    print
+    print("\n")
 
-    print t
+    print(t)
 
 	#reprint
     m0 = (0 * w1 + w0) / -w2
@@ -110,4 +110,4 @@ while (int(ans) == 1):
     print("Incorrect point?")
     print("1: yes")
     print("2: no")
-    ans = raw_input("Enter: ")
+    ans = input("Enter: ")
